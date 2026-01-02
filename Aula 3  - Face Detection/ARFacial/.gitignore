@@ -1,0 +1,75 @@
+# =========================
+# Unity folders (NÃO versionar)
+# =========================
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+
+# Memory Captures (podem conter dados sensíveis)
+[Mm]emoryCaptures/
+
+# Recordings
+[Rr]ecordings/
+
+# =========================
+# IDEs e ferramentas
+# =========================
+.vs/
+.gradle/
+.consulo/
+.idea/
+
+# Rider / JetBrains
+[Aa]ssets/Plugins/Editor/JetBrains*
+
+# =========================
+# Arquivos gerados automaticamente
+# =========================
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Meta de arquivos temporários
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# =========================
+# Logs e relatórios
+# =========================
+sysinfo.txt
+crashlytics-build.properties
+
+# =========================
+# Builds (Android / iOS / PC)
+# =========================
+*.apk
+*.aab
+*.app
+*.unitypackage
+
+# =========================
+# Addressables
+# =========================
+[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+
+# =========================
+# StreamingAssets temporários (Android)
+# =========================
+[Aa]ssets/[Ss]treamingAssets/aa.meta
+[Aa]ssets/[Ss]treamingAssets/aa/*
