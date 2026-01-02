@@ -1,0 +1,2 @@
+C:\Users\Admin\Desktop\Curso-RA\Aula 3  - Face Detection\ARFacial\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\CMakeLists.txt
+C:\Users\Admin\Desktop\Curso-RA\Aula 3  - Face Detection\ARFacial\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\CMakeLists.txt

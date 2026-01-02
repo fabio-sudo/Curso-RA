@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 public class GlassesUIController : MonoBehaviour
 {
@@ -29,4 +30,20 @@ public class GlassesUIController : MonoBehaviour
 
         currentManager.ActivateGlasses(index);
     }
+
+
+    //chama metodo Trocar cor pelo botao
+    public void SelectColor(Material material)
+    {
+        if (currentManager == null)
+        {
+            Debug.LogError("❌ Nenhum GlassesManager registrado");
+            return;
+        }
+
+        currentManager.SetMaterial(material);
+    }
+
+
+
 }

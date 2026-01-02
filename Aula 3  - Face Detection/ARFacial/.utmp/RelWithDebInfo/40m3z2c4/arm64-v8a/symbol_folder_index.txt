@@ -1,0 +1,1 @@
+C:\Users\Admin\Desktop\Curso-RA\Aula 3  - Face Detection\ARFacial\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\cxx\RelWithDebInfo\40m3z2c4\obj\arm64-v8a

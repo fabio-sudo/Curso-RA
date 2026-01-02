@@ -1,0 +1,10 @@
+# ninja log v5
+49	4058	7890049296333581	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	cfe45642fc82445f
+65	4127	7890049297018232	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	afea76ede9d47182
+2	4160	7890049297431776	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	44a5c84db59c4bfc
+126	4183	7890049297685339	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	95b06731550bc451
+19	4324	7890049299106516	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	fed8b7afec75944c
+106	4792	7890049303880360	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	676bbed02f987547
+84	4831	7890049304254434	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	42a9b713e5d9bda0
+33	5117	7890049307061645	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	c7e626ea205643c3
+5118	5461	7890049310586649	C:/Users/Admin/Desktop/Curso-RA/Aula 3  - Face Detection/ARFacial/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/40m3z2c4/obj/arm64-v8a/libgame.so	d261ce3bccca430c

@@ -4,24 +4,29 @@ public class GlassesManager : MonoBehaviour
 {
     public GameObject[] glasses;
 
-    [Header("Óculos inicial (-1 = nenhum)")]
+    [Header("Óculos inicial")]
     public int defaultGlasses = 0;
+
+    private static int ultimoIndice = -1;
+
+    //======================Será utilizada como referencia para oculos selecionado
+    private GameObject activeGlasses;
 
     void Start()
     {
-        // registra no Canvas
         if (GlassesUIController.Instance != null)
-        {
             GlassesUIController.Instance.Register(this);
-        }
 
-        // desativa todos
         DisableAll();
 
-        // ativa um padrão (se quiser)
-        if (defaultGlasses >= 0 && defaultGlasses < glasses.Length)
+        // 🔁 reaplica o último óculos quando o rosto voltar
+        if (ultimoIndice >= 0 && ultimoIndice < glasses.Length)
         {
-            glasses[defaultGlasses].SetActive(true);
+            ActivateGlasses(ultimoIndice);
+        }
+        else if (defaultGlasses >= 0 && defaultGlasses < glasses.Length)
+        {
+            ActivateGlasses(defaultGlasses);
         }
     }
 
@@ -32,6 +37,12 @@ public class GlassesManager : MonoBehaviour
 
         DisableAll();
         glasses[index].SetActive(true);
+
+        //guarda o último escolhido
+        ultimoIndice = index;
+
+        //========================Referencia do oculuos selecionado
+        activeGlasses = glasses[index];
     }
 
     void DisableAll()
@@ -39,5 +50,18 @@ public class GlassesManager : MonoBehaviour
         foreach (var g in glasses)
             if (g != null)
                 g.SetActive(false);
+    }
+
+
+
+    //=========================Método para trocar a cor
+    public void SetMaterial(Material mat)
+    {
+        if (activeGlasses == null) return;
+
+        foreach (var r in activeGlasses.GetComponentsInChildren<Renderer>())
+        {
+            r.material = mat;
+        }
     }
 }
